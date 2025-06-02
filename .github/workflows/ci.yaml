@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  pull_requests:
+  pull_request:
     branches:
       - main
 
@@ -29,4 +29,3 @@ jobs:
       - name: Run tests
         run: |
           pytest _test.py 
-          
